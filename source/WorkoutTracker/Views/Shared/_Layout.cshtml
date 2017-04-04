@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <script>
+
+    </script>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        <script type="text/javascript" src="/Scripts/jquery-2.1.1.min.js">
+            </script>
+        <script src="/Scripts/jquery-ui.js"></script>
+        <script type="text/javascript" src="/Scripts/materialize.js"></script>
+        <script src="/Scripts/dropzone.js"></script>
+        <script src="/Scripts/moment.min.js"></script>
+        <script src="/Scripts/tether.min.js"></script>
+        <script src="/Scripts/underscore-min.js"></script>
+        <script src="/Scripts/pikaday.js"></script>
+        <script src="/Scripts/react-with-addons-0.14.6.min.js"></script>
+        <script src="/Scripts/react-dom-0.14.6.min.js"></script>
+        <script src="/Scripts/griddle.js"></script>
+        <script src="/Scripts/signals.min.js"></script>
+        <script src="/Scripts/hasher.min.js"></script>
+        <script src="/Scripts/crossroads.min.js"></script>
+        <script src="/Scripts/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/Content/Main.css">
+        <link rel="stylesheet" type="text/css" href="/Content/Site.css">
+    </head>
+    <body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Start Bootstrap
+                    </a>
+                </li>
+                <li>
+                    <a href="/#/create_workout">Create Workout</a>
+                </li>
+                <li>
+                    <a href="/#/select_workout">Select Workout</a>
+                </li>
+                <li>
+                    <a href="#">My Current Workout Plan</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                        <h1>Just Train</h1>
+                        @RenderSection("featured", required: false)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
+        <script src="@Url.Content("~/Scripts/all.js")"></script>
+            <script>
+                $("#menu-toggle").click(function (e) {
+                    e.preventDefault();
+                    $("#wrapper").toggleClass("toggled");
+                });
+    </script>
+
+
+
+
+</body>
+</html>

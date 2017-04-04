@@ -1,0 +1,9 @@
+C:\DEV\CODE\WorkoutTracker\source\staged\x86\ClearScriptV8-32.dll
+C:\DEV\CODE\WorkoutTracker\source\staged\x86\v8-ia32.dll
+C:\DEV\CODE\WorkoutTracker\source\staged\x64\ClearScriptV8-64.dll
+C:\DEV\CODE\WorkoutTracker\source\staged\x64\v8-x64.dll
+C:\DEV\CODE\WorkoutTracker\source\staged\WorkoutTracker.dll
+C:\DEV\CODE\WorkoutTracker\source\staged\WorkoutTracker.pdb
+C:\DEV\CODE\WorkoutTracker\source\WorkoutTracker\obj\Release\WorkoutTracker.csprojResolveAssemblyReference.cache
+C:\DEV\CODE\WorkoutTracker\source\WorkoutTracker\obj\Release\WorkoutTracker.dll
+C:\DEV\CODE\WorkoutTracker\source\WorkoutTracker\obj\Release\WorkoutTracker.pdb

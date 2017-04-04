@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutTracker", "source\WorkoutTracker\WorkoutTracker.csproj", "{3A56052D-9088-4866-B2A4-DE2F636F495F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A56052D-9088-4866-B2A4-DE2F636F495F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A56052D-9088-4866-B2A4-DE2F636F495F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A56052D-9088-4866-B2A4-DE2F636F495F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A56052D-9088-4866-B2A4-DE2F636F495F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
